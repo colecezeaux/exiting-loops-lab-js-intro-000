@@ -8,3 +8,7 @@ if(array[i] !== stopValue) {
 }
 return array
 }
+
+function keepGoing(array, changeValue, skipValue) {
+  
+}
