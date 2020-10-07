@@ -29,3 +29,12 @@ for(var i = 0; i < array.length; i++) {
 }
 return output
 }
+
+function findBy(array, findFn) {
+array.forEach(findFn)  
+var output = null
+  if(array[i] == findFn) {
+    output = array[i]
+}
+return output
+}
