@@ -23,7 +23,7 @@ return array
 function findBy(array, findFn) {
 var output;
 for(var i = 0; i < array.length; i++) {
-  if(array[i] !== c) {
+  if(array[i] !== n) {
     output = null
   } else {
     output = array[i]
