@@ -34,6 +34,7 @@ function findBy(array, findFn) {
 for(var i = 0; i < array.length; i++) {
   var output = null
   if(findFn > -1) {
+    array.splice(findFn, 0)
     output = array[i]
   }
 }
