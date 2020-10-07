@@ -22,8 +22,8 @@ return array
 
 function findBy(array, findFn) {
 for(var i = 0; i < array.length; i++) {
-  if(array[i] !== findFn) {
-    return "null"
+  if(array[i] !== valueOf(findFn)) {
+    return null
   }
 }
 }
