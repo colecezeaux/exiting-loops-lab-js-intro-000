@@ -32,14 +32,3 @@ var output;
 return output
 }
 
-function findBy(array, findFn) {
-  array.forEach((key, value) => {
-    var output;
-      if(array[i] === findFn) {
-        output = findFn
-      } else {
-        output = null
-    }
-    return output
-  })
-}
