@@ -23,9 +23,10 @@ return array
 function findBy(array, findFn) {
 var output;
 for(var i = 0; i < array.length; i++) {
-  output = array.prototype.find(element == findFn)
-  if(array[i] !== findFn) {
+  if(array[i] !== c) {
     output = null
+  } else {
+    output = array[i]
   }
 }
 return output
