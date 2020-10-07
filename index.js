@@ -33,8 +33,8 @@ return output
 }
 
 function findBy(array, findFn) {
-var output = null
 for(var i = 0; i < array.length; i++) {
+  var output = null
   if(array[i] !== findFn) {
     output = array[i]
   }
