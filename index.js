@@ -34,9 +34,8 @@ return output
 
 function findBy(array, findFn) {
 var output;
-var value = valueOf(findFn)
 for(var i = 0; i < array.length; i++) {
-  if(array[i] !== value) {
+  if(array[i] !== findFn) {
     output = null
   } else {
     output = array[i]
