@@ -21,16 +21,6 @@ return array
 }
 
 function findBy(array, findFn) {
-for(var i = 0; i < array.length; i++) {
-  var output = null
-  if(array[i] == findFn) {
-    output = array[i]
-  }
-}
-return output
-}
-
-function findBy(array, findFn) {
   for (let i = 0, l = array.length; i < l; i++) {
     if (findFn(array[i])) {
       return array[i]
