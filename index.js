@@ -39,7 +39,6 @@ function findBy(array, findFn) {
         output = findFn
       } else {
         output = null
-      }
     }
     return output
   })
