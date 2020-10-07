@@ -33,8 +33,9 @@ return output
 function findBy(array, findFn) {
   var output = null
 for(var i = 0; i < array.length; i++) {
-  if(findFn > -1) {
-    array.splice(findFn, 0)
+  const index = array.indexOf(findFn)
+  if(index > -1) {
+    array.splice(index, 0)
     output = array
   }
 }
