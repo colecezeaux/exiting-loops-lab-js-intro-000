@@ -26,7 +26,7 @@ var output;
   if(array[i] !== findFn) {
     output = null
   } else {
-    output = array[i]
+    output = findFn
   }
 }
 return output
