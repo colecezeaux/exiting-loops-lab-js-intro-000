@@ -39,7 +39,7 @@ function findBy(array, findFn) {
 // indexOf() syntax: array.indexOf(item, start)
   const index = find.indexOf(findFn) // constant variable index = indexOf constant variable itemName, where the passed in string item is the item to search for
   if(index > -1){ // [if cart.splice() method does not find the item, it will return -1] if statement; condition is while constant variable index is greater than -1 (and thereby has returned a result)
-     array.splice(index, 1) // splice object cart where index is constant variable index, and how many to remove is 1
+     array.splice(index, 0) // splice object cart where index is constant variable index, and how many to remove is 1
      output = array // updates variable output within the if statement to only change if the statement returns true to = updated cart object with removed element
   }
     return output // returns variable output; default or true if statement result
