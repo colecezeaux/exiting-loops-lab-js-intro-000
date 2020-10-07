@@ -25,7 +25,7 @@ for(var i = 0; i < array.length; i++) {
   var output = null
   if(array[i] == findFn) {
     output = array[i]
-    continue
+break
   }
 }
 return output
