@@ -31,7 +31,7 @@ return output
 }
 
 function findBy(array, findFn) {
-array.forEach(findFn)  
+array.forEach(findFn)
 var output = null
   if(array[i] == findFn) {
     output = array[i]
