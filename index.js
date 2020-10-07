@@ -23,7 +23,7 @@ return array
 function findBy(array, findFn) {
 var output;
 for(var i = 0; i < array.length; i++) {
-  output = array.prototype.find(element === findFn)
+  output = array.prototype.find(element == findFn)
   if(array[i] !== findFn) {
     output = null
   }
