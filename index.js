@@ -34,7 +34,7 @@ function findBy(array, findFn) {
   var output = null
   const find = [] // constant variable itemName = empty array
   for(var i = 0; i < array.length; i++){ // for loop; initialization is variable i = 0, condition is while var i is less than the length of the object cart, iteration is var i incrementing by 1 each loop
-    find.push(array[i].find) // each loop pushes the index of i’s itemName key value into the empty array of const itemName (giving us an array of only itemNames)
+    find.push(array[i].findFn) // each loop pushes the index of i’s itemName key value into the empty array of const itemName (giving us an array of only itemNames)
     }
 // indexOf() syntax: array.indexOf(item, start)
   const index = find.indexOf(findFn) // constant variable index = indexOf constant variable itemName, where the passed in string item is the item to search for
