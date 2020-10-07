@@ -31,10 +31,10 @@ return output
 }
 
 function findBy(array, findFn) {
-var newArray = array.forEach(findFn)
-var output = null
-  if(newArray == findFn) {
-    output = newArray
-}
-return output
+  for (let i = 0, l = array.length; i < l; i++) {
+    if (findFn(array[i])) {
+      return array[i]
+    }
+  }
+  return null
 }
